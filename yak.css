@@ -5,7 +5,7 @@
     background-image: linear-gradient(rgb(245, 231, 45),rgb(167, 43, 167));
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    margin: auto 0;
  
 }
  
