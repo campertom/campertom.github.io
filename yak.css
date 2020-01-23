@@ -1,12 +1,14 @@
 /*kayak css*/
-
+html{
+    margin: 0 auto;
+ 
+}
 
 .container {
     background-image: linear-gradient(rgb(245, 231, 45),rgb(167, 43, 167));
     background-size: cover;
     background-repeat: no-repeat;
-    margin: auto 0;
- 
+    
 }
  
 header {
