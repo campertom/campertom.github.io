@@ -8,12 +8,14 @@ html, body{
     background-image: linear-gradient(rgb(245, 231, 45),rgb(167, 43, 167));
     background-size: cover;
     background-repeat: no-repeat;
-    
+    overflow: auto;
 }
  
 header {
     display: flex;
     justify-content: center;
+    height: 100%;
+    margin: 0;
 }
  
 .box1 {
