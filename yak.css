@@ -1,6 +1,7 @@
 /*kayak css*/
 html, body{
-    margin: 0;
+    height: 100%;
+    margin: auto 0;
 }
 
 .container {
