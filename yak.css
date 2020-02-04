@@ -27,7 +27,9 @@ font-family: helvetica;
 height: 350px;
 padding: 1%;
 }
- 
+.caption{
+    display: inherit;
+} 
 
  
 .row2 p{
