@@ -28,7 +28,9 @@ height: 350px;
 padding: 1%;
 }
 .caption{
-    display: inherit;
+    display: flex;
+    flex-direction:  column;
+    
 } 
 
  
