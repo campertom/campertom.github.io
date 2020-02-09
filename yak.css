@@ -48,7 +48,10 @@ margin: 20px;
     flex-direction: column;
 }
  
-
+.alignvid{
+    display: flex;
+    justify-content:flex-end;
+}
  .videoWrapper{
 position: relative;
 padding-bottom: 56.25%; /* 16:9 */
