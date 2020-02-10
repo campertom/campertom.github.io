@@ -6,11 +6,11 @@ html, body{
 
 .container {
     display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(rgb(245, 231, 45),rgb(167, 43, 167));
+    flex-direction: row;
+    background-image: linear-gradient(rgb(245, 198, 45),rgb(167, 43, 167));
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: auto;
+   
 }
  
 header {
@@ -22,7 +22,8 @@ header {
  
 .box1 {
 display: flex;    
-flex-direction: row;
+flex-direction: column;
+align-items: flex-end;
 font-family: helvetica;
 height: 350px;
 padding: 1%;
@@ -30,6 +31,8 @@ padding: 1%;
 .caption{
     display: flex;
     flex-direction:  column;
+    justify-content: flex-end;
+    align-items: baseline;
     margin: 20px;
 
 } 
