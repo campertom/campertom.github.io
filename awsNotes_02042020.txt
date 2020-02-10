@@ -1,0 +1,8 @@
+websockets node.js socket.io
+lamda functions?
+serverless
+digital ocean $5/mo -nice little sandbox
+api gateway added into websocket of AWS will call Lambda adds connection
+id to connect to DynamoDB. find out what a connection handler is.
+serverless framework called architect aka arc.   github is arc.codes
+syntax developer podcast pcj on github and 757dev/twitter
