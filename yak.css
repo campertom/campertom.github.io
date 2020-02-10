@@ -6,6 +6,7 @@ html, body{
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background-image: linear-gradient(rgb(245, 198, 45),rgb(167, 43, 167));
     background-size: cover;
@@ -15,15 +16,16 @@ html, body{
  
 header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: auto;
-    margin: 0;
+
+    margin: auto;
 }
  
 .box1 {
 display: flex;    
 flex-direction: column;
-align-items: flex-end;
+align-items: flex-start;
 font-family: helvetica;
 height: 350px;
 padding: 1%;
@@ -52,10 +54,7 @@ margin: 20px;
     flex-direction: column;
 }
  
-.alignvid{
-    display: flex;
-    justify-content:flex-end;
-}
+
  .videoWrapper{
 position: relative;
 padding-bottom: 56.25%; /* 16:9 */
@@ -76,7 +75,7 @@ height: 0;
 
 .img{
     max-width: 100%;
-    height: 350px;
+    height: 340px;
     padding:1%;
      
 }
