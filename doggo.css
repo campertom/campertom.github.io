@@ -1,0 +1,17 @@
+/*doggo page css*/
+
+html, body{
+    height: 100%;
+    margin: auto 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-image: radial-gradient(rgb(65, 83, 243),rgb(105, 240, 206));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
