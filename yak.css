@@ -19,7 +19,7 @@ header {
     flex-direction: column;
     justify-content: center;
 
-    margin: auto;
+
 }
  
 .box1 {
@@ -89,8 +89,6 @@ footer{
     padding-left:0;
     padding-top: 1%;
     padding-bottom: 1%;
-    border-color: black;
-    border: 1px;
 }
  
 /*.new{ }*/
