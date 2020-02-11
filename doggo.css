@@ -35,11 +35,12 @@ p{
     justify-content: flex-end;
 }
 .photo{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    height: 350px;
-    width: auto;
+    display: relative;
+    max-width: 50%;
+}
+span{
+    color: red;
+    font-size: larger;
 }
     footer {
         text-align: center;
