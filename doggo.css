@@ -8,13 +8,15 @@ html, body{
 header{
     display: flex;
     justify-content: center;
+  
 }
 
 .container{
-    background-image: radial-gradient(rgb(170, 178, 248),rgb(153, 245, 222));
+    background-image: radial-gradient(rgb(153, 245, 117),rgb(78, 245, 203));
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .videoWrapper{
     position: relative;
@@ -29,7 +31,7 @@ header{
         width: 100%;
         height: 100%;    
     }
-p{
+p {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -37,6 +39,7 @@ p{
 .photo{
     display: relative;
     max-width: 50%;
+    box-shadow: 3px 3px 3px;
 }
 span{
     color: red;

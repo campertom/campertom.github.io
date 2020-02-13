@@ -1,0 +1,44 @@
+/*landing page css*/
+
+html body{
+    background-color: rgb(116, 132, 153);
+}
+.container .grid-container{
+    Display: flex;
+    flex-direction: row;
+}
+span {
+    font-family: 'Lucida Sans', 'Lucida Grande', Verdana, sans-serif;
+    color: rgb(27, 53, 27);
+}
+   /* The Grid */
+h3{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 2px;
+}
+.grid-row {
+    width: 100%;
+    display: table;
+    border-collapse:separate;
+    border-spacing:15px;
+  }
+
+  .button1   {/* Green */
+      background-color: rgb(109, 252, 113);
+      border-radius: 25px;
+    } 
+.button2 {/* Blue */
+    background-color: rgb(58, 164, 199);
+    border-radius: 25px;
+} 
+.button3 {/* Red */
+    background-color: #eb7e76;
+    border-radius: 25px;
+} 
+ 
+.grid-item {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    margin:0 0 -15px 0;
+  }  
