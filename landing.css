@@ -15,11 +15,12 @@ span {
     font-size: 1.2em;
     font-weight:300;
     font-family: 'Lucida Sans', 'Lucida Grande', Verdana, sans-serif;
-    color: rgb(80, 89, 133);
+    color: rgb(177, 186, 231);
     padding:20 20 25 30;
 }
+
    /* The Grid */
-   .grid-container{
+.grid-container{
        display:block;
     padding: 10px 15px 15px 10px;
     margin:9 auto;
@@ -30,13 +31,14 @@ h3 {
     justify-content: center;
     font-family: 'Arial Narrow Bold', sans-serif;
     text-shadow: 1px 1px;
-    color: whitesmoke;
+
+    color: rgb(174, 198, 202);
 }
 .grid-row {
     width: 100%;
     display: table;
     border-collapse:separate;
-    border-spacing:15px;
+    border-spacing:20px;
   }
   .grid-item {
     display: block;
@@ -44,21 +46,29 @@ h3 {
     font-size: 1.2em;
     font-weight:300;
     font-family: 'Lucida Sans', 'Lucida Grande', Verdana, sans-serif;
-    color: rgb(80, 89, 133);
+    color: rgb(242, 250, 240);
     padding:20 20 25 30;
     margin:0 0 10 0;
     background-image: linear-gradient(red, orange);
     border-radius: 5px;
 }  
-@media (min-width: 640px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 95vw;
-        max-width: 1200px;
-        grid-gap: 1rem;
+
+@media (min-width: 540px) {
+
+    @supports(display: grid) {
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 95vw;
+            max-width: 1000px;
+            grid-gap: 1rem;
+        }
+    
     }
+
 }
+
 
 
  
