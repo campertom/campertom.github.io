@@ -1,0 +1,18 @@
+
+body{
+    background-color:darkslategray;
+}
+.slab {
+    background: gray;
+    width: 170px;
+    height:450px;
+}
+.panel {
+    position: relative;
+    margin: 10;
+    padding: 10;
+    background:black;
+    width:  100px;
+    height: 100px;
+    border: 1px;
+}

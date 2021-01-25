@@ -1,0 +1,75 @@
+body{
+    display: block;
+    background-color: black;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.topbun {
+    background: rgb(247, 231, 144);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+.mayo {
+    background: white;
+    width: 74px;
+    height: 5px;
+    border-radius: 3px;
+}
+.lettuce{
+    background: limegreen;
+    width: 74px;
+    height: 10px;
+    border-radius: 3px;
+}
+.patty {
+    background: rgb(97, 70, 13);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+    
+.bottom {
+    background: rgb(207, 199, 124);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;    
+}
+/*insert question about child theme here(bun vs top and bottom)*/
+
+.rear-bun{
+    position:absolute;
+    background: rgb(223, 190, 82);
+    padding: 15px;
+    width: 80px;
+    height: 8px;
+    border-radius: 10px;
+    transform: rotate(30deg)
+    
+}
+.bun {
+    background: rgb(223, 190, 82);
+    width: 80px;
+    height: 38px;
+    border-radius: 10px;
+    transform: rotate(30deg)
+
+}
+.meat {
+    position:absolute;
+    background: rgb(189, 132, 27);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    transform: rotate(30deg);
+}
+
+p {
+
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 5%;
+}

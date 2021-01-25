@@ -1,0 +1,6 @@
+#moon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 25px 12px 0 0 red;
+  }

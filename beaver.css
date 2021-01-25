@@ -1,0 +1,21 @@
+.container{
+    position: absolute;
+    display: flex;
+}
+    
+    #cross {
+        background:black;
+        height: 100px;
+        position: relative;
+        width: 20px;
+      }
+      #cross:after {
+        background:black;
+        content: "";
+        height: 20px;
+        left: -40px;
+        position: absolute;
+        top: 40px;
+        width: 100px;
+      }
+    
